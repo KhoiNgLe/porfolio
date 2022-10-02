@@ -17,8 +17,8 @@ const Navbar = () => {
 
       <ul className="hidden md:flex ">
         <li className="text-[#659dbd]">Home</li>
-        <li className="text-[#659dbd]">Projects</li>
-        <li className="text-[#659dbd] ">Experiences</li>
+        <li className="text-[#659dbd]">Skill</li>
+        <li className="text-[#659dbd] ">Projects</li>
         <li className=" text-[#659dbd]">Contact</li>
       </ul>
 
@@ -34,13 +34,18 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl text-[#659dbd]">Home</li>
+        <li className="py-6 text-4xl text-[#659dbd]">Skill</li>
         <li className="py-6 text-4xl text-[#659dbd]">Projects</li>
-        <li className="py-6 text-4xl text-[#659dbd]">Experiences</li>
         <li className="py-6 text-4xl text-[#659dbd]">Contact</li>
       </ul>
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-o">
         <ul>
+        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] duration-300 bg-[#8d8741]">
+            <a className="flex justify-between items-center w-full " href="/">
+              Resume<BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>{" "}
+            </a>
+          </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] duration-300 bg-[#fbeec1]">
             <a className="flex justify-between items-center w-full " href="/">
               Linkedin<FaLinkedin size={30}></FaLinkedin>{" "}
@@ -56,11 +61,7 @@ const Navbar = () => {
               Email<HiOutlineMail size={30}></HiOutlineMail>{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] duration-300 bg-[#8d8741]">
-            <a className="flex justify-between items-center w-full " href="/">
-              Resume<BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>{" "}
-            </a>
-          </li>
+          
         </ul>
       </div>
     </div>

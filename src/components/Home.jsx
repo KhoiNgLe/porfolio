@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <div>
           <button className="border-2 px-6 py-3 my-2 flex items-center text-white hover:bg-[#c8d8e4]">
-            View Work<HiArrowNarrowRight></HiArrowNarrowRight>
+            View Work<HiArrowNarrowRight className="ml-3"></HiArrowNarrowRight>
           </button>
         </div>
       </div>
